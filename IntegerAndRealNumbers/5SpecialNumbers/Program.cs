@@ -8,17 +8,20 @@ namespace _5SpecialNumbers
         static void Main()
         {
             int maxNumber = int.Parse(Console.ReadLine());
-
+            int sum = 0;
 
             for (int i = 1; i <= maxNumber; i++)
             {
+                int maxSum = 0;
                 foreach (var symbol in i.ToString())
                 {
-                    int maxSum = 0;
-                    maxSum += symbol;
-                    bool isSpecial = maxSum == 5 || maxSum == 7 || maxSum == 11;
-                    Console.WriteLine($"{i} -> {isSpecial}");
+
+                    maxSum += symbol - '0';
+                    sum = maxSum;
                 }
+
+                bool isSpecial = sum == 5 || sum == 7 || sum == 11;
+                Console.WriteLine($"{i} -> {isSpecial}");
             }
         }
     }

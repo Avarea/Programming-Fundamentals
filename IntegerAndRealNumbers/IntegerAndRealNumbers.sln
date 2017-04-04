@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4Elevator", "4Elevator\4Ele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5SpecialNumbers", "5SpecialNumbers\5SpecialNumbers.csproj", "{D0450D4D-D5A3-43E2-9FFD-EA5E847445EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6TriplesOfLatinLetters", "6TriplesOfLatinLetters\6TriplesOfLatinLetters.csproj", "{46A4DC01-40B1-4086-A923-69B7C46EBC50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D0450D4D-D5A3-43E2-9FFD-EA5E847445EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0450D4D-D5A3-43E2-9FFD-EA5E847445EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0450D4D-D5A3-43E2-9FFD-EA5E847445EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A4DC01-40B1-4086-A923-69B7C46EBC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A4DC01-40B1-4086-A923-69B7C46EBC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A4DC01-40B1-4086-A923-69B7C46EBC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A4DC01-40B1-4086-A923-69B7C46EBC50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
