@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7Greeting", "7Greeting\7Gre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8RefactrorVolumeOfPyramid", "8RefactrorVolumeOfPyramid\8RefactrorVolumeOfPyramid.csproj", "{BE6A673B-A6A7-4C6D-A8E6-99A467C48BBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9RefactorSpecialNumbers", "9RefactorSpecialNumbers\9RefactorSpecialNumbers.csproj", "{9358A6F6-DD9C-46C6-8944-09C12DCFA3E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{BE6A673B-A6A7-4C6D-A8E6-99A467C48BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE6A673B-A6A7-4C6D-A8E6-99A467C48BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE6A673B-A6A7-4C6D-A8E6-99A467C48BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9358A6F6-DD9C-46C6-8944-09C12DCFA3E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9358A6F6-DD9C-46C6-8944-09C12DCFA3E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9358A6F6-DD9C-46C6-8944-09C12DCFA3E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9358A6F6-DD9C-46C6-8944-09C12DCFA3E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
