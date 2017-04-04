@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5SpecialNumbers", "5Special
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6TriplesOfLatinLetters", "6TriplesOfLatinLetters\6TriplesOfLatinLetters.csproj", "{46A4DC01-40B1-4086-A923-69B7C46EBC50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7Greeting", "7Greeting\7Greeting.csproj", "{216AEBD7-1B02-4E81-863E-1DFBD5551C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8RefactrorVolumeOfPyramid", "8RefactrorVolumeOfPyramid\8RefactrorVolumeOfPyramid.csproj", "{BE6A673B-A6A7-4C6D-A8E6-99A467C48BBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{46A4DC01-40B1-4086-A923-69B7C46EBC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46A4DC01-40B1-4086-A923-69B7C46EBC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46A4DC01-40B1-4086-A923-69B7C46EBC50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216AEBD7-1B02-4E81-863E-1DFBD5551C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216AEBD7-1B02-4E81-863E-1DFBD5551C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216AEBD7-1B02-4E81-863E-1DFBD5551C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216AEBD7-1B02-4E81-863E-1DFBD5551C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE6A673B-A6A7-4C6D-A8E6-99A467C48BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6A673B-A6A7-4C6D-A8E6-99A467C48BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6A673B-A6A7-4C6D-A8E6-99A467C48BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6A673B-A6A7-4C6D-A8E6-99A467C48BBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
