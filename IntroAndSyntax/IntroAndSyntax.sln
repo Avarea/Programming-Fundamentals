@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01Greetings", "01Greetings\01Greetings.csproj", "{C060D3DE-1B9D-4D1F-B2B8-8B45DE3B3F6B}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03MilesToKilometers", "03MilesToKilometers\03MilesToKilometers.csproj", "{407C121E-A9A6-47C9-B347-B0FC58CDD5B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04BeverageLabels", "04BeverageLabels\04BeverageLabels.csproj", "{0AB28B46-253C-45D5-B6B7-59F273BE7B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05CharacterStats", "05CharacterStats\05CharacterStats.csproj", "{AEEB9B1C-FFC7-497C-A2F0-10774E9C8255}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{0AB28B46-253C-45D5-B6B7-59F273BE7B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AB28B46-253C-45D5-B6B7-59F273BE7B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AB28B46-253C-45D5-B6B7-59F273BE7B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEEB9B1C-FFC7-497C-A2F0-10774E9C8255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEB9B1C-FFC7-497C-A2F0-10774E9C8255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEB9B1C-FFC7-497C-A2F0-10774E9C8255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEB9B1C-FFC7-497C-A2F0-10774E9C8255}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
