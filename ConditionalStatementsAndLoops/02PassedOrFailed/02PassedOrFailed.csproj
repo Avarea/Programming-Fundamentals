@@ -7,7 +7,7 @@
     <ProjectGuid>{678FA926-33A0-4AF6-9330-4FE8D35870B0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_02PassedOrFailed</RootNamespace>
-    <AssemblyName>_02PassedOrFailed</AssemblyName>
+    <AssemblyName>02PassedOrFailed</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

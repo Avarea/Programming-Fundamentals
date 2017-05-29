@@ -12,6 +12,10 @@ namespace _02PassedOrFailed
             {
                 Console.WriteLine("Passed!");
             }
+            else
+            {
+                Console.WriteLine("Failed!");
+            }
         }
     }
 }
