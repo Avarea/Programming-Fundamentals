@@ -55,7 +55,7 @@ namespace _06TheatrePromotions
                 }
                 else if (18 < age && age <= 64)
                 {
-                    Console.WriteLine("15$");
+                    Console.WriteLine("12$");
                 }
                 else if (64 < age && age <= 122)
                 {
