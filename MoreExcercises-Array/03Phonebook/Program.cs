@@ -16,7 +16,7 @@ namespace _03Phonebook
 
             while (command != "done")
             {
-                for (int j = 0; j < phones.Length; j++)
+                for (int j = 0; j < names.Length; j++)
                 {
                     if (command == names[j])
                     {
@@ -24,12 +24,7 @@ namespace _03Phonebook
                     }
                 }
                 command = Console.ReadLine();
-
             }
-
-
-
-
         }
     }
 }
