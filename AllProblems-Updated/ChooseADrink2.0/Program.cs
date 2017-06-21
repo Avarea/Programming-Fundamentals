@@ -9,7 +9,7 @@ namespace ChooseADrink2._0
             string profession = Console.ReadLine();
             int quantity = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("The {0} has to pay {1:f2}", profession, quantity * GetADrink(profession));
+            Console.WriteLine("The {0} has to pay {1:f2}.", profession, quantity * GetADrink(profession));
         }
 
         private static double GetADrink(string profession)
