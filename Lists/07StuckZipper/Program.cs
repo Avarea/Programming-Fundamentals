@@ -10,71 +10,52 @@ namespace _07StuckZipper
         {
             List<int> list1 = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
             List<int> list2 = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
-            List<int> combined = new List<int>();
 
-            int smallestList1 = Int32.MaxValue;
+            List<int> FirstLetterAfterRemoval = new List<int>();
+            List<int> SecondLetterAfterRemoval = new List<int>();
+
+            int FirstLetterMinDigit = CalculateMaxDigit(list1);
+            int SecondLetterMinDigit = CalculateMaxDigit(list2);
+            int MinDigit = Math.Min(FirstLetterMinDigit, SecondLetterMinDigit);
+
             for (int i = 0; i < list1.Count; i++)
             {
-                if (smallestList1 > list1[i])
-                {
-                    smallestList1 = list1[i];
-                }
+                if (list1[i] / MinDigit <= 0) FirstLetterAfterRemoval.Add(list1[i]);
             }
-            int smallestDigit1 = smallestList1.ToString().Length;
-            for (int i = 0; i < list1.Count; i++)
-            {
-                if (smallestDigit1 < list1[i].ToString().Length)
-                {
-                    list1.Remove(list1[i]);
-                }
-            }
-
-
-            int smallestList2 = Int32.MaxValue;
             for (int i = 0; i < list2.Count; i++)
             {
-                if (smallestList2 > list2[i])
+                if (list2[i] / MinDigit <= 0) SecondLetterAfterRemoval.Add(list2[i]);
+            }
+            int MaxLenght = Math.Max(FirstLetterAfterRemoval.Count, SecondLetterAfterRemoval.Count);
+
+            List<int> CombineLetter = new List<int>();
+            for (int i = 0; i < MaxLenght; i++)
+            {
+                if (i < SecondLetterAfterRemoval.Count) CombineLetter.Add(SecondLetterAfterRemoval[i]);
+                if (i < FirstLetterAfterRemoval.Count) CombineLetter.Add(FirstLetterAfterRemoval[i]);
+            }
+            Console.WriteLine(string.Join(" ", CombineLetter));
+
+        }
+        private static int CalculateMaxDigit(List<int> Letter)
+        {
+            int mindigit = int.MaxValue;
+            for (int i = 0; i < Letter.Count; i++)
+            {
+                int currentdigit = 1;
+                int temp = Math.Abs(Letter[i]);
+                while (true)
                 {
-                    smallestList2 = list2[i];
+                    if (temp / 10 == 0) break;
+                    else
+                    {
+                        currentdigit *= 10;
+                        temp = temp / 10;
+                    }
                 }
+                mindigit = Math.Min(mindigit, currentdigit);
             }
-            int totalSmallest = 0;
-            if (smallestList1 < smallestList2)
-            {
-                totalSmallest = smallestList1;
-            }
-            else
-            {
-                totalSmallest = smallestList2;
-            }
-            totalSmallest = totalSmallest.ToString().Length;
-            for (int i = 0; i < list1.Count; i++)
-            {
-
-                if (totalSmallest < list1[i].ToString().Length)
-                {
-                    list1.Remove(list1[i]);
-                }
-            }
-
-            for (int i = 0; i < list2.Count; i++)
-            {
-
-                if (totalSmallest < list2[i].ToString().Length)
-                {
-                    list2.Remove(list2[i]);
-                }
-            }
-            for (int i = 0; i < combined.Count; i++)
-            {
-                combined.Add(list2[i]);
-                combined.Add(list1[i]);
-            }
-
-
-
-            Console.WriteLine(string.Join(" ", list1));
-            Console.WriteLine(string.Join(" ", list2));
+            return mindigit * 10;
         }
     }
 }
